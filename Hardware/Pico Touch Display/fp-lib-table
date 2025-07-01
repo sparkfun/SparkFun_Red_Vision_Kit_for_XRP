@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lcd-tft")(type "KiCad")(uri "C:/Users/Dryw/Documents/GitHub/SparkFun_TFT_Touchscreen_Breakout/Hardware/lcd-tft.pretty")(options "")(descr ""))
+)
