@@ -59,16 +59,46 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|116075193|123088838|39df7587-b064-41db-b342-99b751571195|8d9f862e-8323-4ca8-bf41-21088152b344",
-        "courtyards_overlap|171360000|87150000|4da7103d-e57f-4432-bbd8-39b11c954655|8d9f862e-8323-4ca8-bf41-21088152b344",
-        "silk_edge_clearance|134560000|124460000|19d9314d-002e-437e-ab5a-302b507126e2|70c34a91-8bcc-4ec8-b2f7-b94792a6cf4d",
-        "silk_edge_clearance|134560000|73660000|19d9314d-002e-437e-ab5a-302b507126e2|3681cd68-6636-4aab-aede-3559e8b7bd0b",
-        "silk_edge_clearance|137220000|124460000|19d9314d-002e-437e-ab5a-302b507126e2|209b55bd-f9dc-4f40-8b5f-a6d45591bb8b",
-        "silk_edge_clearance|137220000|73660000|19d9314d-002e-437e-ab5a-302b507126e2|c3607cd7-1c0a-4eb0-91d7-4d6740424165",
-        "silk_edge_clearance|152340000|124460000|19d9314d-002e-437e-ab5a-302b507126e2|4bb8d792-af71-4897-b914-d93077490b20",
-        "silk_edge_clearance|152340000|73660000|19d9314d-002e-437e-ab5a-302b507126e2|dc1b97f0-010e-4e8f-a58e-d3c264213767",
-        "silk_edge_clearance|155000000|124460000|19d9314d-002e-437e-ab5a-302b507126e2|13ec64fa-7101-4590-afff-99c77240022f",
-        "silk_edge_clearance|155000000|73660000|19d9314d-002e-437e-ab5a-302b507126e2|825e96ef-32c8-40bf-b82d-bbe810e1cafe"
+        [
+          "courtyards_overlap|116075193|123088838|39df7587-b064-41db-b342-99b751571195|8d9f862e-8323-4ca8-bf41-21088152b344",
+          ""
+        ],
+        [
+          "courtyards_overlap|171360000|87150000|4da7103d-e57f-4432-bbd8-39b11c954655|8d9f862e-8323-4ca8-bf41-21088152b344",
+          ""
+        ],
+        [
+          "silk_edge_clearance|134560000|124460000|19d9314d-002e-437e-ab5a-302b507126e2|70c34a91-8bcc-4ec8-b2f7-b94792a6cf4d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|134560000|73660000|19d9314d-002e-437e-ab5a-302b507126e2|3681cd68-6636-4aab-aede-3559e8b7bd0b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|137220000|124460000|19d9314d-002e-437e-ab5a-302b507126e2|209b55bd-f9dc-4f40-8b5f-a6d45591bb8b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|137220000|73660000|19d9314d-002e-437e-ab5a-302b507126e2|c3607cd7-1c0a-4eb0-91d7-4d6740424165",
+          ""
+        ],
+        [
+          "silk_edge_clearance|152340000|124460000|19d9314d-002e-437e-ab5a-302b507126e2|4bb8d792-af71-4897-b914-d93077490b20",
+          ""
+        ],
+        [
+          "silk_edge_clearance|152340000|73660000|19d9314d-002e-437e-ab5a-302b507126e2|dc1b97f0-010e-4e8f-a58e-d3c264213767",
+          ""
+        ],
+        [
+          "silk_edge_clearance|155000000|124460000|19d9314d-002e-437e-ab5a-302b507126e2|13ec64fa-7101-4590-afff-99c77240022f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|155000000|73660000|19d9314d-002e-437e-ab5a-302b507126e2|825e96ef-32c8-40bf-b82d-bbe810e1cafe",
+          ""
+        ]
       ],
       "meta": {
         "version": 2
@@ -119,6 +149,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -157,10 +188,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -444,10 +476,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -460,9 +497,14 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -474,7 +516,7 @@
   },
   "meta": {
     "filename": "SparkFun_Pico_Touch_Display.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -489,6 +531,7 @@
         "microvia_drill": 0.1524,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.56,
@@ -497,7 +540,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -573,6 +616,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -607,6 +651,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

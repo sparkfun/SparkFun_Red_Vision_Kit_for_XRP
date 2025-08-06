@@ -1,10 +1,10 @@
 # Documentation page information
-site_name: SparkFun Pico Vision Kit for XRP Hookup Guide
-site_description: A guide for getting started with the SparkFun Pico Vision Kit for XRP
-site_url: https://sparkfun.github.io/SparkFun_Pico_Vision_Kit_for_XRP
+site_name: SparkFun Red Vision Kit for XRP Hookup Guide
+site_description: A guide for getting started with the SparkFun Red Vision Kit for XRP
+site_url: https://sparkfun.github.io/SparkFun_Red_Vision_Kit_for_XRP
 site_author: SparkFun Electronics
 
-repo_url: https://github.com/sparkfun/SparkFun_Pico_Vision_Kit_for_XRP
+repo_url: https://github.com/sparkfun/SparkFun_Red_Vision_Kit_for_XRP
 repo_name: sparkfun/SparkFun_MP3_Player_Shield-MY1690X
 
 copyright:
@@ -276,12 +276,13 @@ nav:
     - Quick Start: quickstart.md
     - Hardware: 
       - Camera Board - HM0B10 Overview: camera_board.md
-      - Pico Touch Display Overview: touch_display.md
-      - Vision Kit with XRP Assembly: hardware_assembly.md
+      - Touch Display Overview: touch_display.md
+    - Red Vision Kit Software and Assembly:
+      - Red Vision Kit XRP Firmware: firmware.md
+      - Red Vision Kit with XRP Assembly: hardware_assembly.md
     - Software:
-      - MicroPython Setup: micropython_setup.md
-      - OpenCV MycroPython Package: opencv_setup.md
-      - MicroPython Examples: micropython_examples.md
+      - XRP Code: xrp_code.md
+      - Red Vision Examples: red_vision_examples.md
     - Resources: resources.md
     - Support:
       - Troubleshooting: troubleshooting.md
