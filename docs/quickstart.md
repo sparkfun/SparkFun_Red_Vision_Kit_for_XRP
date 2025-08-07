@@ -46,10 +46,16 @@ Now that we've got the proper firmware installed and the Red Vision Kit connecte
 * Open the [XRP Code Editor](https://xrpcode.wpi.edu/) in a Chromium<sup>&trade;</sup>C based browser (Chrome, Edge, etc.)
     * If you have not already, set the main power switch on the XRP Control Board to "On". The XRP Code Editor has a pop-up for this as well if you try and run code without the board powered on fully.
 * Connect the XRP to the Code Editor. The window may open a pop-up asking to update the firmware. Click "Cancel" as updating the firmware will overwrite the MicroPython OpenCV firmware. A second pop-up may open asking to update libraries, click "Ok" to update the libraries. This will *not* affect the behavior or examples and is necessary to run other XRP examples.
-* Open the XRPExamples folder 
-
+* Open the folder named "red_vision_examples" and double click the file named "ex06_detect_sfe_logo.py" to open the code.
+* Next, click the green "RUN" button in the top-right of the XRP Code Editor window.
 * With the code running, we've printed out a black and white image with three objects on it; a star, the SparkFun flame and a heart. When holding it in front of the camera it should outline it and give information on the size and location of the logo. If you'd like to replicate this at home, just hold up your SparkFun red box or another SparkFun board point the logo on it at the camera. It should identify it; outline it and give information on the size and location of the logo similarly to the photo below:
 
 <figure markdown>
 [![Photo showing the SparkFun logo detected and displayed on the Touch Screen display](./assets/img/Logo-Example-2.jpg){ width="600"}](./assets/img/Logo-Example-2.jpg "Click to enlarge")
+</figure>
+
+This close-up photo offers a better view of what the Touch Screen Display shows when the SparkFun logo is detected in camera frame. You can see in the top left what contour the code is looking for, the bounding box and outline of the logo along with information on the position of the logo's center on the screen (green numbers) and the size of the bounding box (white numbers).
+
+<figure markdown>
+[![Close up photo showing the SparkFun logo detected and outlined on the Touch Screen display](./assets/img/Logo-Example-1.jpg){ width="600"}](./assets/img/Logo-Example-1.jpg "Click to enlarge")
 </figure>

@@ -1,4 +1,4 @@
-The SparkFun Red Vision Kit for XRP requires updated firmware to run proplerly. This firmware updates the XRP Control Board with the right drivers to work with the Vision Kit and also includes all of the MicroPython OpenCV examples included in the package. In this section we'll go over where to find this firmware to download, how to upload it to your XRP Control Board and where to open the examples once you've assembled the Vision Kit onto your XRP Kit. 
+The SparkFun Red Vision Kit for XRP requires updated firmware to run properly. This firmware updates the XRP Control Board with the right drivers to work with the Vision Kit and also includes all of the MicroPython OpenCV examples included in the package. In this section we'll go over where to find this firmware to download, how to upload it to your XRP Control Board and where to open the examples once you've assembled the Vision Kit onto your XRP Kit. 
 
 !!! Note
     We recommend updating the firmware on the XRP Control Board prior to installing the Vision Kit boards onto it as the Touch Display makes it difficult to reach the RESET and BOOT buttons.

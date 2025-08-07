@@ -24,7 +24,7 @@ The Touch Display includes a PCA9534PW GPIO expander to control several I/O (inp
 
 ## &micro;SD Card Slot
 
-The board inclues a &micro;SD card slot to allow users to increase the memory capacity of a connected board; whether that be the XRP Control Board or a Pico.
+The board includes a &micro;SD card slot to allow users to increase the memory capacity of a connected board; whether that be the XRP Control Board or a Pico.
 
 ## Reset Button
 
@@ -36,7 +36,7 @@ The sole LED on this board is a red Power LED to indicate when the board has pow
 
 ## Solder Jumpers
 
-The Red Vision Touch Display for Pico has a large amount of solder jumpers so we'll cover them in subsections. Note, manipulating these solder jumpers is only recommended for *advanced users* as they alter the functionality of the board, change the pins used by it and require knowledge of [surface mount soldering](). 
+The Red Vision Touch Display for Pico has a large amount of solder jumpers so we'll cover them in subsections. Note, manipulating these solder jumpers is only recommended for *advanced users* as they alter the functionality of the board, change the pins used by it and require knowledge of [working with jumper pads and PCB traces](https://learn.sparkfun.com/tutorials/how-to-work-with-jumper-pads-and-pcb-traces). 
 
 ### GPIO Expander Jumpers
 
@@ -103,7 +103,7 @@ The fourth jumper for the GPIO Expander controls whether or not the IC's enable 
 
 ### Camera Connections (DVP Interface) Jumpers
 
-The solder jumper labeled <b>XCLK</b> allows users to generate an external clock to a connected camera from GPIO3. This jumper is OPEN by default. Closing this jumper connects the external clock pin on a connected camera to GPIO3 so make sure a connected camera is configured to use an external clock signal from thsi pin. **Note:** The Red Vision Camera Board included in this kit is configured to use an on-board external clock by default so *make sure* to adjust the board to use an external clock signal from GPIO3 prior to closing this jumper.
+The solder jumper labeled <b>XCLK</b> allows users to generate an external clock to a connected camera from GPIO3. This jumper is OPEN by default. Closing this jumper connects the external clock pin on a connected camera to GPIO3 so make sure a connected camera is configured to use an external clock signal from this pin. **Note:** The Red Vision Camera Board included in this kit is configured to use an on-board external clock by default so *make sure* to adjust the board to use an external clock signal from GPIO3 prior to closing this jumper.
 
 The two groups of solder jumpers labeled <b>1-BIT</b> and <b>8-BIT</b> allow users to change between running a connected camera in 1-Bit (Default) or 8-bit modes. Switching between 1-Bit and 8-Bit requires adjusting **all** of the related jumpers. For example, the board defaults to running a camera in 1-Bit mode by having **all** 1-Bit jumpers CLOSED and **all** 8-Bit jumpers OPEN. The tables below outline which pins a connected camera route to when set to run in 1-Bit or 8-Bit modes:
 
