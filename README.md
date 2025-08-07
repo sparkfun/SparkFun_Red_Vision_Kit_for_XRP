@@ -1,41 +1,30 @@
-SparkFun <PRODUCT NAME>
+SparkFun Red Vision Kit for XRP
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![SparkFun Red Vision Kit for XRP](https://cdn.sparkfun.com/r/600-600/assets/parts/3/0/4/7/6/28667-RedVision-Kit-for-XRP-Feature-2.jpg)](https://www.sparkfun.com/sparkfun-pico-vision-kit-for-xrp.html)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Red Vision Kit for XRP (KIT-28667)*](https://www.sparkfun.com/sparkfun-pico-vision-kit-for-xrp.html)
 
-<Basic description of the part.>
+The SparkFun Red Vision Kit for XRP comes with the Red Vision Touch Display for Pico and Red Vision Camera Board - HM01B0 (Color) to add add machine vision capabilities to the Experiential Robotics Platform (XRP) Kit. This kit comes with everything you need to quickly and easily add a camera and touchscreen display to your XRP Robot with no soldering required. These boards let you add live image processing as well as advanced features including object and contour detection among others to the Experiential Robotics Platform (XRP) Kit using the SparkFun MicroPython Red Vision Code package, a MicroPython port of the popular OpenCV image processing library.
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
-* **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
-* **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+* **/Hardware** - KiCad design files (.brd, .sch)
+* **/docs** - GitHub Pages documentation files
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[SparkFun Red Vision MicroPython Package](https://github.com/sparkfun/red_vision/tree/main)** - MicroPython package for the SparkFun Red Vision Kit for XRP.
+* **[SparkFun MicroPython OpenCV](https://github.com/sparkfun/micropython-opencv)** - MicroPython port of OpenCV code library.
+* **[SparkFun MicroPython Firmware Releases](https://github.com/sparkfun/micropython/releases)** - SparkFun MicroPython firmware releases.
+* **[SparkFun Red Vision Kit for XRP Hookup Guide](https://docs.sparkfun.com/SparkFun_Red_Vision_Kit_for_XRP/introduction)** - Basic hookup guide for the SparkFun Red Vision Kit for XRP.
 
 Product Versions
 ----------------
-* [Part SKU](part URL) - Basic part and short description here
-* [Retail part SKU](retail URL) - Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [KIT-28667](https://www.sparkfun.com/sparkfun-pico-vision-kit-for-xrp.html) - Initial release of the SparkFun Red Vision Kit for XRP
+* [LCD-29467](https://www.sparkfun.com/sparkfun-red-vision-touch-display-for-pico.html) - SparkFun Red Vision Touch Display for Pico (Standalone board)
+* [SEN-29468](https://www.sparkfun.com/sparkfun-red-vision-camera-board-hm01b0-color.html) - SparkFun Red Vision Camera Board - HM01B0 (Color) (Standalone board)
 
 License Information
 -------------------
@@ -49,5 +38,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
