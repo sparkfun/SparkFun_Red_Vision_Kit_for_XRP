@@ -1,5 +1,9 @@
 Let's take a closer look at the Red Vision Touch Display for Pico and the hardware included on it.
 
+<figure markdown>
+[![Annotated photo of the Red Vision Touch Display](./assets/img/RedVision-Touch-Display-Annotated.jpg){ width="600"}](./assets/img/RedVision-Touch-Display-Annotated.jpg "Click to enlarge")
+</figure>
+
 ## 2" Capacitive Touch LCD
 
 The Touch Display Board has a 2", 340x240px resolution capacitive touch LCD. 

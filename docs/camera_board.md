@@ -1,5 +1,9 @@
 Let's take a closer look at the Camera Board - HM0B10 and the hardware on it.
 
+<figure markdown>
+[![Annotated photo of the Red Vision Camera Board](./assets/img/RedVision-Camera-Board-Annotated.jpg){ width="600"}](./assets/img/RedVision-Camera-Board-Annotated.jpg)
+</figure>
+
 ## Himax HM0B10 Camera Module (Color)
 
 The HM0B10 camera module from Himax<sup>&reg;</sup> has a 320 x 320 pixel resolution that supports frame rates of up to 51FPS in full resolution (320x320) and up to 60FPS in windowed/QVGA (320x240) operation. The camera module also has a 2x2 monochrome binning mode that supports up to 120FPS if you're looking to maximize frame rate over resolution and color. The HM01B0 also has a motion detect feature tied to an interrupt output so you can program it to wake up your camera project whenever it senses motion. The video data interface communicates over a configurable 1, 4 or 8bit interface that features both video frame for synchronizing multiple cameras and line sync for creating a composite image from two cameras. The HM01B0 operates over a I<sup>2</sup>C serial interface with an address of <b>0x24</b>. For complete information on the HM0B10, refer to the [datasheet](https://cdn.sparkfun.com/assets/7/f/c/8/3/HM01B0-MNA-Datasheet.pdf).
