@@ -1,8 +1,8 @@
-The [SparkFun Red Vision Kit for XRP](https://www.sparkfun.com/sparkfun-pico-vision-kit-for-xrp.html) features the [SparkFun Red Vision Touch Display for Pico]() and the [SparkFun Red Vision Camera Board - HM01B0 (Color)]() so you can add image processing and display to the SparkFun Experiential Robotics Kit (XRP). This Hookup Guide is written primarily for users with the Red Vision kit but those who have just one of these boards can follow along to some degree to get their boards up and running on an XRP or Pico. Note, all code covered here assumes use of the full Red Vision kit connected to an XRP Kit.
-
 <figure markdown>
-[![Photo of completed Red Vision Kit assembly on XRP robot](./assets/img/Red-Vision-Assembly-4.jpg){ width="600"}](https://www.sparkfun.com/sparkfun-pico-vision-kit-for-xrp.html)
+[![Banner photo for the Red Vision Kit for XRP](./assets/img/Hookup-Guide-Banner.png){ width="600"}](./assets/img/Hookup-Guide-Banner.png)
 </figure>
+
+The [SparkFun Red Vision Kit for XRP](https://www.sparkfun.com/sparkfun-pico-vision-kit-for-xrp.html) features the [SparkFun Red Vision Touch Display for Pico](https://www.sparkfun.com/sparkfun-red-vision-touch-display-for-pico.html) and the [SparkFun Red Vision Camera Board - HM01B0 (Color)](https://www.sparkfun.com/sparkfun-red-vision-camera-board-hm01b0-color.html) so you can add image processing and display to the SparkFun Experiential Robotics Kit (XRP). This Hookup Guide is written primarily for users with the Red Vision kit but those who have just one of these boards can follow along to some degree to get their boards up and running on an XRP or Pico. Note, all code covered here assumes use of the full Red Vision kit connected to an XRP Kit.
 
 ## Required Matierals
 

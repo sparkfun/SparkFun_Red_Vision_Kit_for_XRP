@@ -1,7 +1,4 @@
-SparkFun Red Vision Kit for XRP
-========================================
-
-[![SparkFun Red Vision Kit for XRP](https://cdn.sparkfun.com/r/600-600/assets/parts/3/0/4/7/6/28667-RedVision-Kit-for-XRP-Feature-2.jpg)](https://www.sparkfun.com/sparkfun-pico-vision-kit-for-xrp.html)
+[![SparkFun Red Vision Kit for XRP](./docs/assets/img/Repository-Banner.png)](https://www.sparkfun.com/sparkfun-pico-vision-kit-for-xrp.html)
 
 [*SparkFun Red Vision Kit for XRP (KIT-28667)*](https://www.sparkfun.com/sparkfun-pico-vision-kit-for-xrp.html)
 
